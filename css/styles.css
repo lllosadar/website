@@ -1,11 +1,8 @@
-
-
 :root {
   --orange: #A8301E;
   --grey: #707070;
   --peach:#E99183;
 }
-
 
 body {
   background-color: #FFFBF4;
@@ -19,7 +16,6 @@ body {
   margin-right: auto;
   max-width:900px;
 }
-
 
 #links img {
   height:20pt;
@@ -62,7 +58,6 @@ nav a.selected span {
 #content {
   margin-top: 50pt;
 } 
- 
 
 #content .profile-pic-container {
   margin-left: auto;
@@ -97,6 +92,7 @@ nav a.selected span {
   -o-animation: fadeIn 2s;
   -ms-animation: fadeIn 2s;
 }
+
 @keyframes fadeIn {
   0% {
     opacity:0;
@@ -159,20 +155,18 @@ nav a.selected span {
 
 @media only screen and (min-width: 700px) {
 
-#content {
-  display: grid;
-  grid-template-areas: "pic content";
-  grid-gap: 40px;
-}
+  #content {
+    display: grid;
+    grid-template-areas: "pic content";
+    grid-gap: 40px;
+  }
 
+  #content .profile-pic-container { 
+    margin-top: 50px;
+  }
 
-#content .profile-pic-container { 
-  margin-top: 50px;
-}
-
-#content p {
-  padding-left: 20px;
-
-}
+  #content p {
+    padding-left: 20px;
+  }
 
 }
