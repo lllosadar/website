@@ -59,6 +59,10 @@ nav a.selected span {
   margin-top: 50pt;
 } 
 
+#title {
+  font-size: 1.5em;
+}
+
 #content .profile-pic-container {
   margin-left: auto;
   margin-right: auto;
@@ -154,6 +158,16 @@ nav a.selected span {
 }
 
 @media only screen and (min-width: 700px) {
+
+
+
+  #title {
+    font-size: 2em;
+  }
+
+  #subtitle {
+    
+  }
 
   #content {
     display: grid;
